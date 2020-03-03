@@ -6,22 +6,21 @@ import android.os.Bundle
 import android.view.View
 import kotlinx.android.synthetic.main.activity_dashboard.*
 
-class DashboardActivity : AppCompatActivity() {
+class DashboardActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dashboard)
 
-        todo_card.setOnClickListener({this})
-        inventory_card.setOnClickListener({this})
-        users_multiport_card.setOnClickListener({this})
-        users_colfletar_card.setOnClickListener({this})
-        providers_card.setOnClickListener({ this })
-        licences_card.setOnClickListener({ this })
-
+        todo_card.setOnClickListener(this)
+        inventory_card.setOnClickListener(this)
+        users_multiport_card.setOnClickListener(this)
+        users_colfletar_card.setOnClickListener(this)
+        providers_card.setOnClickListener(this)
+        licences_card.setOnClickListener (this)
     }
 
-    fun onClick(v: View) {
+    override fun onClick(v: View) {
         val i: Intent
         when(v.id){
             R.id.todo_card -> { i = Intent(this, TodoActivity::class.java)
@@ -48,4 +47,5 @@ class DashboardActivity : AppCompatActivity() {
             }
         }
     }
+
 }

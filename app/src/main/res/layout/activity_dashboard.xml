@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:padding="10dp"
-    android:background="#fcfcfc"
+    android:background="@drawable/background"
     android:gravity="center"
     android:id="@+id/ll"
     android:layout_width="match_parent"
@@ -25,32 +25,34 @@
             android:layout_height="190dp"
             android:layout_margin="10dp">
             <LinearLayout
+                android:background="@color/colorPrimaryDark"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:gravity="center">
+
                 <ImageView
                     android:layout_width="64dp"
                     android:layout_height="64dp"
-                    android:background="@drawable/circlebackgroundpurple"
-                    android:src="@drawable/ic_attach_money_black_24dp"
-                    android:padding="10dp"/>
+                    android:background="@drawable/circlebackgroundbrown"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_check_box_white_24dp" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
-                    android:text="Banking"/>
+                    android:text="To Do"/>
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
-                    android:background="@color/lightgray"
+                    android:background="@color/colorPrimary"
                     android:layout_margin="10dp"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Check your bank activities"
+                    android:text="Check your daily activities"
                     android:padding="5dp"
                     android:textColor="@android:color/darker_gray"/>
 
@@ -64,32 +66,34 @@
             android:layout_height="190dp"
             android:layout_margin="10dp">
             <LinearLayout
+                android:background="@color/colorPrimaryDark"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:gravity="center">
+
                 <ImageView
                     android:layout_width="64dp"
                     android:layout_height="64dp"
-                    android:background="@drawable/circlebackgroundpink"
-                    android:src="@drawable/ic_lightbulb_outline_black_24dp"
-                    android:padding="10dp"/>
+                    android:background="@drawable/circlebackgroundbrown"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_assignment_white_24dp" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
-                    android:text="Add"/>
+                    android:text="Inventory IT"/>
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
-                    android:background="@color/lightgray"
+                    android:background="@color/colorPrimary"
                     android:layout_margin="10dp"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Check your bank activities"
+                    android:text="Information about computing devices"
                     android:padding="5dp"
                     android:textColor="@android:color/darker_gray"/>
 
@@ -111,32 +115,34 @@
             android:layout_height="190dp"
             android:layout_margin="10dp">
             <LinearLayout
+                android:background="@color/colorPrimaryDark"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:gravity="center">
+
                 <ImageView
                     android:layout_width="64dp"
                     android:layout_height="64dp"
-                    android:background="@drawable/circlebackgroundgreen"
-                    android:src="@drawable/ic_control_point_black_24dp"
-                    android:padding="10dp"/>
+                    android:background="@drawable/circlebackgroundbrown"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_people_outline_white_24dp" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
-                    android:text="Add"/>
+                    android:text="Users Multiport"/>
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
-                    android:background="@color/lightgray"
+                    android:background="@color/colorPrimary"
                     android:layout_margin="10dp"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Check your bank activities"
+                    android:text="Employees of Multiport"
                     android:padding="5dp"
                     android:textColor="@android:color/darker_gray"/>
 
@@ -151,6 +157,7 @@
             android:layout_margin="10dp">
 
             <LinearLayout
+                android:background="@color/colorPrimaryDark"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
@@ -159,29 +166,29 @@
                 <ImageView
                     android:layout_width="64dp"
                     android:layout_height="64dp"
-                    android:background="@drawable/circlebackgroundyellow"
+                    android:background="@drawable/circlebackgroundbrown"
                     android:padding="10dp"
-                    android:src="@drawable/ic_attach_file_black_24dp" />
+                    android:src="@drawable/ic_people_outline_white_24dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="Links"
+                    android:text="Users Colfletar"
                     android:textStyle="bold" />
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
                     android:layout_margin="10dp"
-                    android:background="@color/lightgray" />
+                    android:background="@color/colorPrimary"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:padding="5dp"
-                    android:text="Check your bank activities"
+                    android:text="Employees of Colfletar"
                     android:textColor="@android:color/darker_gray" />
 
             </LinearLayout>
@@ -209,32 +216,34 @@
             android:layout_height="190dp"
             android:layout_margin="10dp">
             <LinearLayout
+                android:background="@color/colorPrimaryDark"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:gravity="center">
+
                 <ImageView
                     android:layout_width="64dp"
                     android:layout_height="64dp"
-                    android:background="@drawable/circlebackgroundpurple"
-                    android:src="@drawable/ic_attach_money_black_24dp"
-                    android:padding="10dp"/>
+                    android:background="@drawable/circlebackgroundbrown"
+                    android:padding="10dp"
+                    android:src="@drawable/fullstyle" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
-                    android:text="Banking"/>
+                    android:text="Providers"/>
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
-                    android:background="@color/lightgray"
+                    android:background="@color/colorPrimary"
                     android:layout_margin="10dp"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Check your bank activities"
+                    android:text="Information about providers"
                     android:padding="5dp"
                     android:textColor="@android:color/darker_gray"/>
 
@@ -249,32 +258,34 @@
                 android:layout_height="190dp"
                 android:layout_margin="10dp">
                 <LinearLayout
+                    android:background="@color/colorPrimaryDark"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:gravity="center">
+
                     <ImageView
                         android:layout_width="64dp"
                         android:layout_height="64dp"
-                        android:background="@drawable/circlebackgroundpurple"
-                        android:src="@drawable/ic_attach_money_black_24dp"
-                        android:padding="10dp"/>
+                        android:background="@drawable/circlebackgroundbrown"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_security_white_24dp" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textStyle="bold"
                         android:layout_marginTop="10dp"
-                        android:text="Banking"/>
+                        android:text="Licences"/>
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
-                        android:background="@color/lightgray"
+                        android:background="@color/colorPrimary"
                         android:layout_margin="10dp"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="Check your bank activities"
+                        android:text="Licences Office, Windows, Antivirus"
                         android:padding="5dp"
                         android:textColor="@android:color/darker_gray"/>
 
