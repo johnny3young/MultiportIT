@@ -56,6 +56,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="@string/login"
+        android:onClick="loginUser"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -68,7 +71,6 @@
         style="@style/viewCustom"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="60dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:background="@color/colorPrimary"
@@ -76,9 +78,10 @@
         android:text="@string/createAccou"
         android:textColor="@android:color/white"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/txtForgotPassword"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnlogin" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/txtForgotPassword"
